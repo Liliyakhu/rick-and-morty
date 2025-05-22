@@ -9,6 +9,8 @@ certifi==2025.4.26
 charset-normalizer==3.4.2
 click==8.2.1
 Django==5.2.1
+django-rest-framework==0.1.0
+djangorestframework==3.16.0
 frozenlist==1.6.0
 idna==3.10
 multidict==6.4.4

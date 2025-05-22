@@ -1,11 +1,11 @@
 import requests
 
 from characters.models import Character
-from rick_and_morty_api import settings
+from rick_and_morty_api.settings import RICK_AND_MORTY_API_CHARACTERS_URL
 
 
 def scrape_characters() -> list[Character]:
-    next_url_to_scrape = settings.RICK_AND_MORTY_API_CHARACTERS_URL
+    next_url_to_scrape = RICK_AND_MORTY_API_CHARACTERS_URL
     # next_url_to_scrape = "https://rickandmortyapi.com/api/character"
 
     characters = []
