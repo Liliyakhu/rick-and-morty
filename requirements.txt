@@ -37,6 +37,7 @@ propcache==0.3.1
 psycopg==3.2.9
 python-crontab==3.2.0
 python-dateutil==2.9.0.post0
+python-dotenv==1.1.0
 PyYAML==6.0.2
 redis==6.1.0
 referencing==0.36.2
