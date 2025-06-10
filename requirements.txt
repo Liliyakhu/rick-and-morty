@@ -21,7 +21,9 @@ django-rest-framework==0.1.0
 django-timezone-field==7.1
 djangorestframework==3.16.0
 drf-spectacular==0.28.0
+flower==2.0.1
 frozenlist==1.6.0
+humanize==4.12.3
 idna==3.10
 inflection==0.5.1
 jsonschema==4.23.0
@@ -32,12 +34,16 @@ mypy_extensions==1.1.0
 packaging==25.0
 pathspec==0.12.1
 platformdirs==4.3.8
+prometheus_client==0.22.1
 prompt_toolkit==3.0.51
 propcache==0.3.1
 psycopg==3.2.9
+psycopg-binary==3.2.9
+psycopg2-binary==2.9.10
 python-crontab==3.2.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
+pytz==2025.2
 PyYAML==6.0.2
 redis==6.1.0
 referencing==0.36.2
@@ -46,6 +52,7 @@ rpds-py==0.25.1
 six==1.17.0
 sqlparse==0.5.3
 tomli==2.2.1
+tornado==6.5.1
 typing_extensions==4.13.2
 tzdata==2025.2
 uritemplate==4.1.1

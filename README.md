@@ -12,7 +12,8 @@
 3. Python, Django/Flask/FastAPI, ORM, PostgreSQL, Git.
 4. All endpoints should be documented via Swagger.
 
-### How to run:
+## How to run:
+### with gitHub:
 - Create venv: `python -m venv venv`
 - Activate it: `source venv/bin/activate`
 - Install requirements: `pip install -r requirements.txt`
@@ -24,3 +25,9 @@
 - Run celery beat for task scheduling: `celery -A rick_and_morty_api beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler`
 - Create schedule for running sync in DB
 - Run app: `python manage.py runserver`
+
+
+### with docker:
+- Copy .env.sample -> .env and populate with all required data
+- `docker compose up --build`
+- Create admin user & create schedule for running sync in DB
